@@ -7,7 +7,7 @@ A fully custom side menu component built in SwiftUI. It features animated transi
 ## ✨ Features
 
 - Smooth animated slide-in/out side menu
-- Enum-based dynamic tab generation (`SideMenuRowType`)
+- Enum-based dynamic tab generation (`SideMenuType`)
 - Profile section with image and user info
 - Reusable `SideMenu` container for flexible integration
 - Stylish gradient and selection highlight
@@ -17,18 +17,18 @@ A fully custom side menu component built in SwiftUI. It features animated transi
 
 ## 🧱 Project Structure
 
-### `SideMenuRowType.swift`
+### `SideMenuType.swift`
 
 An enum that represents different tabs:
 
 ```swift
-enum SideMenuRowType: String, CaseIterable, Equatable {
+enum SideMenuType: String, CaseIterable, Equatable {
     case home, favorite, chat, profile
 
     var title: String { ... }
     var iconName: String { ... }
 
-    static func == (lhs: SideMenuRowType, rhs: SideMenuRowType) -> Bool {
+    static func == (lhs: SideMenuType, rhs: SideMenuType) -> Bool {
         lhs.rawValue == rhs.rawValue
     }
 }
