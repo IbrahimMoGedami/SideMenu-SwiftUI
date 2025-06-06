@@ -69,10 +69,7 @@ Handles the main app layout and tab switching.
 
 ## 📸 Screenshots
 
-> *(Insert relevant UI screenshots here)*  
-> - Side menu open  
-> - Tab view selected  
-> - Mobile layout
+![Side Menu in Action](screenshots/Simulator-iPhone%2016%20Pro.gif)
 
 ---
 
