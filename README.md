@@ -69,7 +69,7 @@ Handles the main app layout and tab switching.
 
 ## 📸 Screenshots
 
-![Side Menu in Action](screenshots/Simulator-iPhone%2016%20Pro.gif)
+![Side Menu in Action](Simulator_iPhone_16_Pro.gif)
 
 ---
 
